@@ -90,7 +90,7 @@ python test.py models/interp_06.pth
 ```
 
 <p align="center">
-  <img src=".jpg" width="600">
+  <img src=figures/images1.jpg width="600">
 </p>
 
 ---
