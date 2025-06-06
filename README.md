@@ -1,8 +1,9 @@
 
 # High-Resolution Generative Adversarial Network 🚀
 
-> **High-Resolution Generative Adversarial Network**  
-> **High-Resolution Generative Adversarial Network** is a state-of-the-art method for restoring photo-realistic details from low-resolution images using deep learning.  
+
+**High-Resolution Generative Adversarial Network**  
+**High-Resolution Generative Adversarial Network** is a state-of-the-art method for restoring photo-realistic details from low-resolution images using deep learning.  
 It integrates dense residual blocks, perceptual loss, and GAN innovations for visually convincing outputs.
 
 ---
@@ -44,7 +45,7 @@ Super-Resolved Output
 
 <p align="center">
   <img src="figures/architecture.jpg" width="600">
-  <br><em>Fig: ESRGAN architecture with RRDB blocks</em>
+  
 </p>
 
 ---
@@ -128,7 +129,7 @@ We evaluated:
 - **Perceptual loss before vs after activation**
 
 <p align="center">
-  <img src="figures/abalation_study.png">
+  <img src="figures/Compare.png">
 </p>
 
 ---
