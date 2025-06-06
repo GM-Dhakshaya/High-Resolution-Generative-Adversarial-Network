@@ -1,10 +1,9 @@
 
-# ESRGAN (Enhanced Super-Resolution GAN) 🚀
+# High-Resolution Generative Adversarial Network 🚀
 
-> **Enhanced Super-Resolution Generative Adversarial Network**  
-> From the winners of the [PIRM2018-SR Challenge](https://www.pirm2018.org/PIRM-SR.html)
-
-![ESRGAN Demo](https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/assets/teaser.jpg)
+> **High-Resolution Generative Adversarial Network**  
+> **High-Resolution Generative Adversarial Network** is a state-of-the-art method for restoring photo-realistic details from low-resolution images using deep learning.  
+It integrates dense residual blocks, perceptual loss, and GAN innovations for visually convincing outputs.
 
 ---
 
@@ -17,9 +16,6 @@
 - Applying **Perceptual Loss using pre-activation VGG features**.
 
 These upgrades improve sharpness, texture realism, and perceptual quality of super-resolved images.  
-Our ESRGAN model won **1st place** in the PIRM-SR Challenge (Region 3).
-
-📄 [Read the paper](https://arxiv.org/abs/1809.00219)
 
 ---
 
@@ -94,7 +90,7 @@ python test.py models/interp_06.pth
 ```
 
 <p align="center">
-  <img src="figures/net_interp.jpg" width="600">
+  <img src=".jpg" width="600">
 </p>
 
 ---
@@ -170,19 +166,3 @@ Removing BN layers avoids visual glitches in deep networks.
 
 ---
 
-## 🧑‍💻 Related Projects
-
-- 🔧 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN): Real-world image restoration
-- ⚙️ [BasicSR](https://github.com/xinntao/BasicSR): Training framework used by ESRGAN
-
----
-
-## 📬 Contact & Contributions
-
-Feel free to open an issue or pull request.  
-Let's build better super-resolution together!
-
----
-
-© 2018–2025 Xintao Wang et al. | CUHK-SenseTime Joint Lab  
-Adapted for enhanced documentation and usability.
